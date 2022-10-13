@@ -1,24 +1,20 @@
 import React from 'react';
 import './App.css';
+import { Layout, PageHeader } from 'antd';
+import Sider from 'antd/es/layout/Sider';
+import { Content, Footer, Header } from 'antd/es/layout/layout';
 
-const logo = require("./logo.svg") as string;
 export function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Layout className="Page">
+            <Header>Header</Header>
+            <Layout>
+                <Sider>Sider</Sider>
+                <Content>Content</Content>
+            </Layout>
+            <Footer>Footer</Footer>
+        </Layout>
     </div>
   );
 }
