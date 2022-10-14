@@ -9,9 +9,9 @@ export function App() {
   return (
     <div className="App">
         <Layout className="Page">
-            <Header>
+            <PageHeader title='Customer Management System' className='header'>
                 <HeaderContent/>
-            </Header>
+            </PageHeader>
             <Divider className='divider'/>
             <Layout>
                 <Sider>Sider</Sider>

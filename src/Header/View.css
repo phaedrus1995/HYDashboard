@@ -1,3 +1,10 @@
+.ant-page-header-content {
+    margin-right: 5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 button.button-help {
-    background-color: red;
+    background-color: var(--thema-color);
+    height: 25px;
 }
