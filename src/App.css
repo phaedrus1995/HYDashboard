@@ -29,6 +29,19 @@
   margin: auto
 }
 
+.content {
+  height: 80vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+aside.side-bar {
+  height: 100%;
+  max-width: 10vw !important;
+  width: 10vw !important;
+  background-color: gray;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

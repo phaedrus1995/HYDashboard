@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c73918ff-daa5-4c66-98f0-6f52c581fb29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Sider/View.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sider/View.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sider/testFile/View.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/View.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/View.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/View.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/View.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
-  <component name="RunManager" selected="Jest.Header Content">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Sider">
     <configuration name="App.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -64,6 +71,33 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="Sider" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/Sider/testFile/View.test.tsx" />
+      <test-names>
+        <test-name value="Sider" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Sider.should render buttons" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Sider/testFile/View.test.tsx" />
+      <test-names>
+        <test-name value="Sider" />
+        <test-name value="should render buttons" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="main page" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -79,6 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Sider" />
+        <item itemvalue="Jest.Sider.should render buttons" />
         <item itemvalue="Jest.Header Content" />
         <item itemvalue="Jest.App.test.tsx" />
         <item itemvalue="Jest.main page" />
@@ -93,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665640714602</updated>
-      <workItem from="1665640717726" duration="16584000" />
+      <workItem from="1665640717726" duration="20224000" />
     </task>
     <servers />
   </component>

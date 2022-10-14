@@ -4,6 +4,7 @@ import { Divider, Layout, PageHeader } from 'antd';
 import Sider from 'antd/es/layout/Sider';
 import { Content, Footer, Header } from 'antd/es/layout/layout';
 import { HeaderContent } from './Header';
+import { SiderContent } from './Sider/View';
 
 export function App() {
   return (
@@ -13,8 +14,10 @@ export function App() {
                 <HeaderContent/>
             </PageHeader>
             <Divider className='divider'/>
-            <Layout>
-                <Sider>Sider</Sider>
+            <Layout className='content'>
+                <Sider className='side-bar'>
+                    <SiderContent />
+                </Sider>
                 <Content>Content</Content>
             </Layout>
             <Footer>Footer</Footer>
