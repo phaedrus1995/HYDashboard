@@ -1,5 +1,5 @@
 :root {
-  --thema-color: orange
+  --thema-color: rgb(248,84,22)
 }
 
 .App {
@@ -33,13 +33,15 @@
   height: 80vh;
   margin-left: 5vw;
   margin-right: 5vw;
+  display: flex;
 }
 
 aside.side-bar {
   height: 100%;
   max-width: 10vw !important;
   width: 10vw !important;
-  background-color: gray;
+  flex: 0 0 10vw !important;
+  background-color: var(--thema-color);
 }
 
 @media (prefers-reduced-motion: no-preference) {

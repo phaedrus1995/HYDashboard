@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c73918ff-daa5-4c66-98f0-6f52c581fb29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sider/View.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sider/View.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sider/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sider/testFile/View.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sider/View.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sider/View.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665640714602</updated>
-      <workItem from="1665640717726" duration="20224000" />
+      <workItem from="1665640717726" duration="21730000" />
     </task>
     <servers />
   </component>
