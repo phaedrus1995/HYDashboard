@@ -29,6 +29,11 @@
   color: white;
 }
 
+.divider {
+  height: 1px;
+  background-color: black;
+}
+
 .App-link {
   color: #61dafb;
 }
