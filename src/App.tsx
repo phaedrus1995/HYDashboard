@@ -3,7 +3,7 @@ import './App.css';
 import { Divider, Layout, PageHeader } from 'antd';
 import { HeaderContent } from './Header';
 import { SiderContent } from './Sider/View';
-import { Deadline } from './DeadlineReminder/View';
+import { Deadline, DeadlineReminder } from './DeadlineReminder/View';
 import { Content, Footer } from 'antd/lib/layout/layout';
 import Sider from 'antd/lib/layout/Sider';
 
@@ -37,7 +37,9 @@ export function App() {
                 <Sider className='side-bar'>
                     <SiderContent />
                 </Sider>
-                <Content>Content</Content>
+                <Content>
+                    <DeadlineReminder deadline={mockDeadline}/>
+                </Content>
             </Layout>
             <Footer>Footer</Footer>
         </Layout>

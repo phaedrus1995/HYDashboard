@@ -14,6 +14,6 @@ export interface DeadlineProps {
 
 export const DeadlineReminder: React.FC<DeadlineProps> = ({ deadline }: DeadlineProps) => {
     return <div>
-        {deadline.map(company => <div>{ `${ company.customerName }`}</div>)}
+        {deadline.map(company => <div key={company.customerId}>{ `${ company.customerName }`}</div>)}
     </div>
 }

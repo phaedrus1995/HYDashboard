@@ -6,7 +6,8 @@
 module.exports = {
   preset: 'ts-jest',
   testMatch: [
-    '<rootDir>/src/*/testFile/*.test.tsx'
+    '<rootDir>/src/*/testFile/*.test.tsx',
+    '<rootDir>/src/*/testFile/*.test.ts'
   ],
   testEnvironment: 'jsdom',
   transformIgnorePatterns: ['<rootDir>/node_modules/?!antd'],
