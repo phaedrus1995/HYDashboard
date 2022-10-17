@@ -18,6 +18,9 @@
 .env.test.local
 .env.production.local
 
+# built artifact
+/built
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
