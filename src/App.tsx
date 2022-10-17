@@ -1,10 +1,29 @@
 import React from 'react';
 import './App.css';
 import { Divider, Layout, PageHeader } from 'antd';
-import Sider from 'antd/es/layout/Sider';
-import { Content, Footer, Header } from 'antd/es/layout/layout';
 import { HeaderContent } from './Header';
 import { SiderContent } from './Sider/View';
+import { Deadline } from './DeadlineReminder/View';
+import { Content, Footer } from 'antd/lib/layout/layout';
+import Sider from 'antd/lib/layout/Sider';
+
+export const mockDeadline: Deadline[] = [
+    {
+        customerId: '0001',
+        customerName: 'Thoughtworks',
+        deadline: '1663352154000'
+    },
+    {
+        customerId: '0002',
+        customerName: 'Volkswagen',
+        deadline: '1665944154000'
+    },
+    {
+        customerId: '0003',
+        customerName: 'logitech',
+        deadline: '1668622554000'
+    },
+]
 
 export function App() {
   return (

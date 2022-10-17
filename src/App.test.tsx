@@ -3,7 +3,7 @@ import React from 'react';
 import { App } from './App';
 
 jest.mock('antd', () => ({
-  Header: () => <div data-testid="header">header</div>,
+  PageHeader: () => <div data-testid="header">header</div>,
   Layout: () => <div data-testid="layout">layout</div>,
   Footer: () => <div data-testid="footer">footer</div>,
 }))

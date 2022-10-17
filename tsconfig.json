@@ -4,7 +4,9 @@
     "allowJs": true,
     "target": "es5",
     "jsx": "react",
-    "allowSyntheticDefaultImports": true
+    "esModuleInterop": true,
   },
-  "include": ["./src/**/*"]
+  "allowSyntheticDefaultImports": true,
+  "allowJs": false,
+  "include": ["./src/**/*"],
 }
